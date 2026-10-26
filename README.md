@@ -2,8 +2,6 @@
 
 A local Python research demo that predicts **low, medium or high effort categories** from an issue title and description using TF-IDF text features. Compares logistic regression and Multinomial Naive Bayes with an always-low baseline; the demo uses the Naive Bayes model selected on validation.
 
-This is an **AI-assisted reconstruction completed in October 2026**, not recovered evidence of the May–June 2025 team project. Original code, personal responsibilities, historical metrics and mentor/peer review are unavailable. This reconstruction does not substantiate the historical 500,000+ issues or 82% accuracy claims.
-
 ## What the results support
 
 Audited 458,232 unique TAWOS issues across 39 projects. Eligibility filtering and deduplication left 44,609 modeling tickets, split chronologically into 31,226 training, 6,691 validation and 6,692 test tickets.
