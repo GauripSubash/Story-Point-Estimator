@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "labels": ["low", "medium", "high"],
+  "category_upper_bounds": {"low": 2, "medium": 5},
+  "valid_story_points": {"minimum_exclusive": 0, "maximum_inclusive": 100},
+  "split_timestamp": "Creation_Date",
+  "split": {"method": "chronological", "train_fraction": 0.7, "validation_fraction": 0.15, "minimum_test": 2000},
+  "tfidf": {"ngram_range": [1, 2], "max_features": 50000, "min_df": 3, "sublinear_tf": true},
+  "logistic_C": [0.5, 2.0],
+  "nb_alpha": [0.5, 1.0],
+  "selection_metric": "validation_macro_f1"
+}

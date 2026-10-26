@@ -1,0 +1,87 @@
+{
+  "rows_written": {
+    "Issue": 458232,
+    "Issue_Link": 58909,
+    "Project": 39
+  },
+  "actual_schema": {
+    "Issue": [
+      "ID",
+      "Jira_ID",
+      "Issue_Key",
+      "URL",
+      "Title",
+      "Description",
+      "Description_Text",
+      "Description_Code",
+      "Type",
+      "Priority",
+      "Status",
+      "Resolution",
+      "Creation_Date",
+      "Estimation_Date",
+      "Resolution_Date",
+      "Last_Updated",
+      "Story_Point",
+      "Timespent",
+      "In_Progress_Minutes",
+      "Total_Effort_Minutes",
+      "Resolution_Time_Minutes",
+      "Title_Changed_After_Estimation",
+      "Description_Changed_After_Estimation",
+      "Story_Point_Changed_After_Estimation",
+      "Pull_Request_URL",
+      "Creator_ID",
+      "Reporter_ID",
+      "Assignee_ID",
+      "Project_ID",
+      "Sprint_ID"
+    ],
+    "Issue_Link": [
+      "ID",
+      "Issue_ID",
+      "Name",
+      "Description",
+      "Direction",
+      "Target_Issue_ID"
+    ],
+    "Project": [
+      "ID",
+      "Project_Key",
+      "Name",
+      "URL",
+      "Description",
+      "Start_Date",
+      "Last_Update_Date",
+      "SP_Field_ID",
+      "Repository_ID"
+    ]
+  },
+  "field_mapping": {
+    "Issue": [
+      "ID",
+      "Issue_Key",
+      "Project_ID",
+      "Title",
+      "Description",
+      "Story_Point",
+      "Creation_Date",
+      "Estimation_Date",
+      "Title_Changed_After_Estimation",
+      "Description_Changed_After_Estimation",
+      "Story_Point_Changed_After_Estimation"
+    ],
+    "Project": [
+      "ID",
+      "Project_Key",
+      "Name",
+      "Repository_ID"
+    ],
+    "Issue_Link": [
+      "Issue_ID",
+      "Name",
+      "Target_Issue_ID"
+    ]
+  },
+  "method": "Strict MySQL literal parser; no SQL execution; only duplicate issue links retained"
+}

@@ -1,0 +1,15 @@
+.venv/
+.venv312/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+models/
+work/
+outputs/
+reports/test_predictions.csv
+reports/error_samples.csv
+reports/split_ids.csv
+reports/*.png
+reports/environment.txt
+

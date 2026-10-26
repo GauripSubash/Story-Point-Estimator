@@ -1,0 +1,36 @@
+{
+  "source": "https://rdr.ucl.ac.uk/articles/dataset/The_TAWOS_dataset/21308124/1",
+  "doi": "10.5522/04/21308124.v1",
+  "metadata_url": "https://api.figshare.com/v2/articles/21308124/versions/1",
+  "article_version": 1,
+  "dataset_version": "1.1",
+  "acquired_utc": "2026-10-26T14:48:20.265414+00:00",
+  "archive": {
+    "id": 37806375,
+    "name": "TAWOS.sql.zip",
+    "size": 637550449,
+    "is_link_only": false,
+    "download_url": "https://ndownloader.figshare.com/files/37806375",
+    "supplied_md5": "e9c5ecc7649d55f0cf2fb4efb5664494",
+    "computed_md5": "e9c5ecc7649d55f0cf2fb4efb5664494",
+    "mimetype": "application/zip"
+  },
+  "checksums": {
+    "md5": "e9c5ecc7649d55f0cf2fb4efb5664494",
+    "sha256": "278984f788008c58d338e1f4aa195eae8e5b15b4153e51c247659ef8465917f7"
+  },
+  "archive_members": [
+    {
+      "name": "TAWOS.sql",
+      "bytes": 4313856480
+    }
+  ],
+  "license": {
+    "value": 7,
+    "name": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  "terms_url": "https://github.com/SOLAR-group/TAWOS#terms-of-use",
+  "terms_note": "Research purposes only; no harmful use or reidentification. Apache 2.0.",
+  "citation": "Tawosi, Vali; Alsubaihin, Afnan Abdulaziz A; Moussa, Rebecca; Sarro, Federica (2022). The TAWOS dataset. University College London. Dataset. https://doi.org/10.5522/04/21308124.v1"
+}
