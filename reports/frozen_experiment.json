@@ -1,0 +1,76 @@
+{
+  "frozen_utc": "2026-10-26T14:59:33.696001+00:00",
+  "configuration": {
+    "seed": 42,
+    "labels": [
+      "low",
+      "medium",
+      "high"
+    ],
+    "category_upper_bounds": {
+      "low": 2,
+      "medium": 5
+    },
+    "valid_story_points": {
+      "minimum_exclusive": 0,
+      "maximum_inclusive": 100
+    },
+    "split_timestamp": "Creation_Date",
+    "split": {
+      "method": "chronological",
+      "train_fraction": 0.7,
+      "validation_fraction": 0.15,
+      "minimum_test": 2000
+    },
+    "tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "max_features": 50000,
+      "min_df": 3,
+      "sublinear_tf": true
+    },
+    "logistic_C": [
+      0.5,
+      2.0
+    ],
+    "nb_alpha": [
+      0.5,
+      1.0
+    ],
+    "selection_metric": "validation_macro_f1"
+  },
+  "config_sha256": "6b307625d8b8760e98ea9989ae41b33b120605d7b03cc88bc52e3505418cac7e",
+  "data_sha256": "a30de140fef802de1d9c367ee7a7059c925e50e22b9f95f0a22c736d6312410d",
+  "split_metadata_sha256": "0eaa0b1edc8f653e375cdbfeca87c85c715b04bd705b634b658eab4ed6258b9c",
+  "split_file_sha256": {
+    "train": "b8551808b6ad3f2e36fdb6b741d2b70c207e50c23017e89b9c130eaadbfcecfd",
+    "validation": "8c4be49b5eb4573cfab2720a67403c0bbf66cea7851c4dfca3b2ba2004a9d1ca",
+    "test": "798a2e49c2cab0d2421b69338b6204da432a13f7a7ac4c8ff5e8e3065bcf94c6"
+  },
+  "model_sha256": {
+    "baseline.joblib": "b55b0484167fba5715a7d19a8c08b68fd6295e919ea3d3b22f55eb6525e665f7",
+    "logistic_regression.joblib": "89c9fba21278d873fe0ca29828689a35ada88b866e61de148bc96afc68b03a81",
+    "multinomial_nb.joblib": "2da04cbae05622c61962b22c03bfc53fe0244aad7048de9ca693525e86036031",
+    "selected.joblib": "2da04cbae05622c61962b22c03bfc53fe0244aad7048de9ca693525e86036031"
+  },
+  "selected_family": "multinomial_nb",
+  "parameters": {
+    "logistic_regression": {
+      "C": 2.0
+    },
+    "multinomial_nb": {
+      "alpha": 0.5
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.6.1",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "joblib": "1.6.0"
+  },
+  "reload_predictions_match": true,
+  "notes": "Fitted on train only; validation used for selection; no final test metrics observed before freeze."
+}
